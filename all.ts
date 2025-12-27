@@ -7,7 +7,6 @@ interface calc{
     vychitaniy(a:number,b:number):void
     delenie(a:number,b:number):void
 }
-// Классds
 class calculation implements calc{
     a:number
     b:number
