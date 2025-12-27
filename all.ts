@@ -26,7 +26,6 @@ class calculation implements calc{
         console.log(all[0])
     }
     multiply(a:number,b:number){
-        console.log(`${a*b}`)
     }
     vychitaniy(a:number,b:number){
         console.log(`${a-b}`)
