@@ -28,14 +28,16 @@ class calculation implements calc{
     multiply(a:number,b:number){
         console.log(`${a*b}`)
     }
-    vychitaniy(a:number,b:number){}
+    vychitaniy(a:number,b:number){
+        console.log(`${a-b}`)
+    }
     delenie(a:number,b:number){}
 
 }
 
 let a = 5
 let b = 7
-let c = "1"
+let c = "3"
 
 if (c == "1"){
     let example = new calculation(a,b,c)
@@ -45,6 +47,12 @@ if (c == "1"){
 if (c == "2"){
     let example = new calculation(a,b,c)
     example.multiply(a,b)
+}
+
+if (c == "3"){
+    let example = new calculation(a,b,c)
+    example.vychitaniy(a,b)
+    
 }
 
 
